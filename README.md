@@ -5,6 +5,8 @@ Wrote this as I was using [APDUView]( http://www.fernandes.org/apduview/index.ht
 Log file is located in the same directory as the `SmartcardSniffer.dll`, and has 
 a name of the application that is talking to the smart card. 
 
+It's using [MHook lib](http://codefromthe70s.org/mhook.aspx ) to do it's hooking business. 
+
 To install the dll, just add it's path to:
 * for 32 bit DLL on 32 bit systems:
  - ```[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\AppInit_DLLs]```
